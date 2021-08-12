@@ -7,12 +7,9 @@ function Homepage(props) {
   const { classes } = props;
   return (
     <div>
-      <header>
-        <p>Site Under Construction</p>
-      </header>
       <main>
         <div className={classes.callToAction}>
-          <p>
+          <p className={classes.ctaText}>
             Hard Tellin', the latest release from The Deep Roots Ensemble, is
             available for purchase on Band Camp!
           </p>

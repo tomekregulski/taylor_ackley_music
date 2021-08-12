@@ -1,6 +1,13 @@
 * {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
 }
 
 body {
@@ -8,6 +15,8 @@ body {
   background-image: url('./images/montana.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100%;
+  line-height: 1;
 }
 
 header {
@@ -21,4 +30,21 @@ header p {
 
 h1 {
   font-size: 58px;
+}
+
+input,
+select,
+option,
+optgroup,
+textarea,
+button,
+pre,
+code {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
 }
