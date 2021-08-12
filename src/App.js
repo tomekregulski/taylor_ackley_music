@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <>
-      <h1>This is a test for Taylor Ackley's website</h1>
+      <header>
+        <h1>Taylor Ackley Music</h1>
+        <p>under construction</p>
+      </header>
     </>
   );
 }
