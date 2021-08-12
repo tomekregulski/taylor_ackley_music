@@ -4,6 +4,15 @@ export default {
     justifyContent: 'space-between',
     marginTop: '2rem',
   },
+  name: {
+    paddingBottom: '.7rem',
+    borderBottom: '1px solid black',
+  },
+  titleTags: {
+    display: 'flex',
+    justifyContent: 'space-around',
+    marginTop: '.7rem',
+  },
   navLinks: {
     display: 'flex',
     flexDirection: 'flex-end',
@@ -11,9 +20,15 @@ export default {
   },
   navLinkItem: {
     marginRight: '2rem',
-    hover: {
-      transform: 'scale(1.01) translateY(-3px)',
-      textShadow: '0 5px 5px rgba(0, 0, 0, 0.29)',
+    transition: 'all .5s',
+    textDecoration: 'none',
+    color: 'black',
+    '&:visited': {
+      color: 'black',
+    },
+    '&:hover': {
+      color: 'white',
+      textShadow: '0.2rem 0.2rem 10px black',
     },
   },
 };
