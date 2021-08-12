@@ -1,13 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import Homepage from './components/Homepage';
 
 function App() {
   return (
     <>
-      <header>
-        <h1>Taylor Ackley Music</h1>
-        <p>under construction</p>
-      </header>
+      <Switch>
+        <Route exact path='/' component={Homepage} />
+      </Switch>
     </>
   );
 }
