@@ -17,6 +17,7 @@ function Homepage(props) {
             className={classes.ctaBtn}
             href='https://taylorackley.bandcamp.com/album/hard-tellin'
             target='_blank'
+            rel='noreferrer'
             variant='contained'
             color='primary'
           >
