@@ -1,12 +1,13 @@
 import React from 'react';
+import { withStyles } from '@material-ui/styles';
+import styles from '../styles/BioStyles';
 
-function Bio() {
+function Bio(props) {
+  const { classes } = props;
   return (
     <>
       <div>
-        <h2 style={{ marginTop: '8rem', textAlign: 'center' }}>
-          Bio Page - Under Construction
-        </h2>
+        <h2 className={classes.title}>Bio Page - Under Construction</h2>
       </div>
       <div>
         <p>
@@ -44,4 +45,4 @@ function Bio() {
   );
 }
 
-export default Bio;
+export default withStyles(styles)(Bio);

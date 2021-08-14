@@ -1,13 +1,14 @@
 import React from 'react';
+import { withStyles } from '@material-ui/styles';
+import styles from '../styles/WorksStyles';
 
-function Works() {
+function Works(props) {
+  const { classes } = props;
   return (
     <div>
-      <h2 style={{ marginTop: '8rem', textAlign: 'center' }}>
-        Works Page - Under Construction
-      </h2>
+      <h2 className={classes.title}>Works Page - Under Construction</h2>
     </div>
   );
 }
 
-export default Works;
+export default withStyles(styles)(Works);

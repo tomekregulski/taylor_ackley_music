@@ -1,10 +1,13 @@
 import React from 'react';
+import { withStyles } from '@material-ui/styles';
+import styles from '../styles/DeepRootsStyles';
 
-function TheDeepRoots() {
+function TheDeepRoots(props) {
+  const { classes } = props;
   return (
     <>
       <div>
-        <h2 style={{ marginTop: '8rem', textAlign: 'center' }}>
+        <h2 className={classes.title}>
           The Deep Roots Page - Under Construction
         </h2>
       </div>
@@ -26,4 +29,4 @@ function TheDeepRoots() {
   );
 }
 
-export default TheDeepRoots;
+export default withStyles(styles)(TheDeepRoots);
