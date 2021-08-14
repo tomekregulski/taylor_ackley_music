@@ -14,6 +14,7 @@ function Homepage(props) {
             available for purchase on Band Camp!
           </p>
           <Button
+            className={classes.ctaBtn}
             href='https://taylorackley.bandcamp.com/album/hard-tellin'
             target='_blank'
             variant='contained'
