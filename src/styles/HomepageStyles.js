@@ -9,10 +9,10 @@ export default {
     animation: '$hiSlide 5000ms',
   },
   ctaBtn: {
-    animation: '$moveInBottom 6000ms',
+    animation: '$moveInBottom 5000ms',
     background: 'transparent',
-    border: '2px solid blue',
-    color: '#9C5A32',
+    border: '2px solid #17D0FF',
+    color: 'black',
     // padding: '15px 32px',
     textAlign: 'center',
     textDecoration: 'none',

@@ -3,6 +3,7 @@ export default {
     display: 'flex',
     justifyContent: 'space-between',
     marginTop: '2rem',
+    marginLeft: '2rem',
   },
   name: {
     paddingBottom: '.7rem',
