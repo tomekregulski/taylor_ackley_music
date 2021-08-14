@@ -12,16 +12,29 @@ function Works(props) {
       <div>
         <h2 className={classes.title}>Works</h2>
       </div>
-      <div className={classes.videoContainer}>
-        <iframe
-          width='560'
-          height='315'
-          src='https://www.youtube.com/embed/dKmCx_Oo22E'
-          title='YouTube video player'
-          frameborder='0'
-          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-          allowfullscreen
-        />
+      <div className={classes.allVideosContainer}>
+        <div className={classes.videoContainer}>
+          <iframe
+            width='460'
+            height='260'
+            src='https://www.youtube.com/embed/dKmCx_Oo22E'
+            title='YouTube video player'
+            frameborder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          />
+        </div>
+        <div className={classes.videoContainer}>
+          <iframe
+            width='460'
+            height='260'
+            src='https://www.youtube.com/embed/FSz-_9m8z7c'
+            title='YouTube video player'
+            frameborder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          />
+        </div>
       </div>
       <div className={classes.allAlbumsContainer}>
         <div className={(classes.hardTellinContainer, classes.albumContainer)}>

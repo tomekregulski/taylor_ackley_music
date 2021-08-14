@@ -1,5 +1,4 @@
 // eslint-disable-next-line import/no-anonymous-default-export
-// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   title: {
     textAlign: 'left',
@@ -11,9 +10,13 @@ export default {
     borderBottom: '1px solid black',
     display: 'inline-block',
   },
+  allVideosContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+  },
   videoContainer: {
     marginTop: '2rem',
-    marginLeft: '14rem',
+    marginLeft: '4rem',
   },
   allAlbumsContainer: {
     display: 'inline-flex',

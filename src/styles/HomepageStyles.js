@@ -13,11 +13,11 @@ export default {
     background: 'transparent',
     border: '2px solid #17D0FF',
     color: 'black',
-    // padding: '15px 32px',
     textAlign: 'center',
     textDecoration: 'none',
     display: 'inline-block',
     fontWeight: '400',
+    transition: '.7s',
     '&:hover': {
       transform: 'translateY(-3px)',
       background: 'transparent',

@@ -10,8 +10,8 @@ function Homepage(props) {
       <main>
         <div className={classes.callToAction}>
           <p className={classes.ctaText}>
-            Hard Tellin', the latest release from The Deep Roots Ensemble, is
-            available for purchase on Band Camp!
+            Hard Tellin' and Songs From the Bitterroot are available for
+            purchase on Band Camp!
           </p>
           <Button
             className={classes.ctaBtn}
@@ -21,7 +21,7 @@ function Homepage(props) {
             variant='contained'
             color='primary'
           >
-            Find it Here!
+            Find Them Here!
           </Button>
         </div>
       </main>
