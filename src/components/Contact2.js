@@ -8,22 +8,6 @@ import { init, sendForm } from 'emailjs-com';
 init('user_sWNT4oROPiAoUGksmqFlD');
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: '4rem',
-    padding: theme.spacing(2),
-
-    '& .MuiTextField-root': {
-      margin: theme.spacing(1),
-      width: '300px',
-    },
-    '& .MuiButtonBase-root': {
-      margin: theme.spacing(2),
-    },
-  },
   heading: {
     marginTop: '6rem',
     textAlign: 'center',
@@ -52,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Contact = () => {
+const Contact2 = () => {
   const classes = useStyles();
 
   const { register, handleSubmit } = useForm();
@@ -80,19 +64,7 @@ const Contact = () => {
         </h2>
       </div>
 
-      <form
-        id='contact-form'
-        onSubmit={handleSubmit(onSubmit)}
-        className={classes.root}
-      >
-        {/* <TextField
-          type='text'
-          name='name'
-          variant='filled'
-          placeholder='Name'
-          maxLength='30'
-          ref={register({ required: true })}
-        /> */}
+      <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
         <input
           type='text'
           name='name'
@@ -101,14 +73,6 @@ const Contact = () => {
           maxLength='30'
           ref={register({ required: true })}
         />
-        {/* <TextField
-          type='text'
-          name='email'
-          variant='filled'
-          placeholder='Email'
-          maxLength='30'
-          ref={register({ required: true })}
-        /> */}
         <input
           type='text'
           name='email'
@@ -117,20 +81,10 @@ const Contact = () => {
           maxLength='30'
           ref={register({ required: true })}
         />
-        {/* <TextField
-          type='text'
-          name='message'
-          variant='filled'
-          multiline
-          placeholder='Message'
-          maxLength='1500'
-          ref={register({ required: true })}
-        /> */}
         <textarea
           type='text'
           name='message'
           variant='filled'
-          // multiline
           placeholder='Message'
           maxLength='1500'
           ref={register({ required: true })}
@@ -148,4 +102,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact2;
