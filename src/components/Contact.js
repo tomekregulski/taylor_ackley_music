@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core';
-import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { useForm } from 'react-hook-form';
 import { init, sendForm } from 'emailjs-com';
@@ -8,22 +7,24 @@ import { init, sendForm } from 'emailjs-com';
 init('user_sWNT4oROPiAoUGksmqFlD');
 
 const useStyles = makeStyles((theme) => ({
-  // root: {
-  //   display: 'flex',
-  //   flexDirection: 'column',
-  //   justifyContent: 'center',
-  //   alignItems: 'center',
-  //   marginTop: '4rem',
-  //   padding: theme.spacing(2),
+  form: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: '4rem',
+    marginRight: '20rem',
+    marginLeft: '20rem',
+    padding: theme.spacing(2),
 
-  //   '& .MuiTextField-root': {
-  //     margin: theme.spacing(1),
-  //     width: '300px',
-  //   },
-  //   '& .MuiButtonBase-root': {
-  //     margin: theme.spacing(2),
-  //   },
-  // },
+    '& .MuiTextField-root': {
+      margin: theme.spacing(1),
+      width: '300px',
+    },
+    '& .MuiButtonBase-root': {
+      margin: theme.spacing(2),
+    },
+  },
   heading: {
     marginTop: '6rem',
     textAlign: 'center',
@@ -50,9 +51,37 @@ const useStyles = makeStyles((theme) => ({
       transition: '0.4s',
     },
   },
+  input: {
+    width: '90%',
+    padding: '1rem',
+    color: 'black',
+    backgroundColor: 'rgba(69,69,122,.4)',
+    border: 'none',
+    borderBottom: '1px solid black',
+    transition: 'ease-in',
+    marginBottom: '2rem',
+    '&::placeholder': {
+      color: 'black',
+      opacity: '1',
+    },
+  },
+  textarea: {
+    width: '90%',
+    padding: '1rem',
+    color: 'black',
+    backgroundColor: 'rgba(69,69,112,.4)',
+    border: 'none',
+    borderBottom: '1px solid black',
+    transition: 'ease-in',
+    resize: 'none',
+    '&::placeholder': {
+      color: 'black',
+      opacity: '1',
+    },
+  },
 }));
 
-const Contact = () => {
+const Contact2 = () => {
   const classes = useStyles();
 
   const { register, handleSubmit } = useForm();
@@ -83,64 +112,36 @@ const Contact = () => {
       <form
         id='contact-form'
         onSubmit={handleSubmit(onSubmit)}
-        // className={classes.root}
+        className={classes.form}
       >
-        <TextField
+        <input
           type='text'
           name='name'
           variant='filled'
           placeholder='Name'
           maxLength='30'
+          className={classes.input}
           ref={register({ required: true })}
         />
-        {/* <input
-          type='text'
-          name='name'
-          variant='filled'
-          placeholder='Name'
-          maxLength='30'
-          ref={register({ required: true })}
-        /> */}
-        <TextField
+        <input
           type='text'
           name='email'
           variant='filled'
           placeholder='Email'
           maxLength='30'
+          className={classes.input}
           ref={register({ required: true })}
         />
-        {/* <input
-          type='text'
-          name='email'
-          variant='filled'
-          placeholder='Email'
-          maxLength='30'
-          ref={register({ required: true })}
-        /> */}
-        <TextField
+        <textarea
           type='text'
           name='message'
           variant='filled'
-          multiline
           placeholder='Message'
           maxLength='1500'
+          className={classes.textarea}
           ref={register({ required: true })}
         />
-        {/* <textarea
-          type='text'
-          name='message'
-          variant='filled'
-          // multiline
-          placeholder='Message'
-          maxLength='1500'
-          ref={register({ required: true })}
-        /> */}
-        <Button
-          type='submit'
-          className={classes.submitBtn}
-          variant='contained'
-          color='primary'
-        >
+        <Button type='submit' className={classes.submitBtn} variant='contained'>
           Send
         </Button>
       </form>
@@ -148,4 +149,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact2;

@@ -31,9 +31,6 @@ function Navbar(props) {
         <Link className={classes.navLinkItem} to='/contact'>
           Contact
         </Link>
-        <Link className={classes.navLinkItem} to='/contact2'>
-          Contact2
-        </Link>
       </div>
     </nav>
   );
