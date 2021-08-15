@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 // import styles from '../styles/ContactStyles';
 import { makeStyles } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import { useForm, Controller } from 'react-hook-form';
+import { init, sendForm } from 'emailjs-com';
+
+init('user_sWNT4oROPiAoUGksmqFlD');
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -54,9 +57,25 @@ function Contact({ handleClose }) {
   // const { classes } = props;
   const classes = useStyles();
   const { handleSubmit, control } = useForm();
+  // const [contactNumber, setContactNumber] = useState('000000');
+
+  // const generateContactNumber = () => {
+  //   const numStr = '000000' + ((Math.random() * 1000000) | 0);
+  //   setContactNumber(numStr.substring(numStr.length - 6));
+  // };
 
   const onSubmit = (data) => {
     console.log(data);
+    const form = document.querySelector('#contact-form');
+    sendForm('default_service', 'template_xu5gbwo', '#contact-form').then(
+      function (response) {
+        console.log('SUCCESS!', response.status, response.text);
+        form.reset();
+      },
+      function (error) {
+        console.log('FAILED...', error);
+      }
+    );
   };
 
   return (
@@ -66,9 +85,13 @@ function Contact({ handleClose }) {
           I'd love to hear from you! Please use the form below to get in touch.
         </h2>
       </div>
-      <form className={classes.root} onSubmit={handleSubmit(onSubmit)}>
+      <form
+        className={classes.root}
+        id='contact-form'
+        onSubmit={handleSubmit(onSubmit)}
+      >
         <Controller
-          name='firstName'
+          name='name'
           control={control}
           defaultValue=''
           render={({ field: { onChange, value }, fieldState: { error } }) => (
