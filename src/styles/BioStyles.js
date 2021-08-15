@@ -24,7 +24,8 @@ export default {
   },
   headshot: {
     width: '20rem',
-    paddingTop: '2rem',
+    marginTop: '2rem',
     opacity: '.8',
+    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
 };

@@ -17,6 +17,7 @@ export default {
   videoContainer: {
     marginTop: '2rem',
     marginLeft: '4rem',
+    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   allAlbumsContainer: {
     display: 'inline-flex',
@@ -31,20 +32,22 @@ export default {
   },
   hardTellin: {
     width: '20rem',
-    paddingTop: '2rem',
-    opacity: '.8',
+    marginTop: '2rem',
+    // opacity: '.8',
     marginRight: '30rem',
+    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   bitterroot: {
     width: '20rem',
-    paddingTop: '2rem',
-    opacity: '.8',
+    marginTop: '2rem',
+    // opacity: '.8',
+    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   strings: {
     width: '20rem',
-    paddingTop: '2rem',
-    opacity: '.8',
-    // justifySelf: 'center',
+    marginTop: '2rem',
+    // opacity: '.8',
+    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   workText: {
     width: '20rem',
