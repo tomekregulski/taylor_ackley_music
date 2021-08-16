@@ -8,7 +8,7 @@ import ensemblePose from '../images/deep_roots_pose.jpg';
 function TheDeepRoots(props) {
   const { classes } = props;
   return (
-    <>
+    <div className={classes.rootsBackground}>
       <div>
         <h2 className={classes.title}>The Deep Roots Ensemble</h2>
       </div>
@@ -46,7 +46,7 @@ function TheDeepRoots(props) {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

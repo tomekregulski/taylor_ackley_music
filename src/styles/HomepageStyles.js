@@ -1,17 +1,22 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 // import image from '../images/4.jpg';
-import image from '../images/landscape2.jpg';
+import image from '../images/taylor_up_close.jpg';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   callToAction: {
     textAlign: 'center',
     paddingTop: '12rem',
   },
-  body: {
+  homeBackground: {
     backgroundImage: `url(${image})`,
     backgroundSize: 'cover',
+    backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    height: '85vh',
+    height: '92vh',
+    backgroundAttachment: 'fixed',
+  },
+  main: {
+    position: 'absolute',
   },
   ctaText: {
     marginBottom: '25px',
@@ -71,9 +76,22 @@ export default {
     },
   },
   '@media screen and (min-width: 360px)': {},
-  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 375px)': {},
   '@media screen and (min-width: 411px)': {},
   '@media screen and (min-width: 768px)': {},
-  '@media screen and (min-width: 1366px)': {},
+  '@media screen and (min-width: 1366px)': {
+    callToAction: {
+      position: 'relative',
+      left: '58rem',
+      bottom: '10rem',
+    },
+    ctaText: {
+      marginBottom: '0',
+      fontWeight: '300',
+    },
+    ctaBtn: {
+      marginTop: '20px',
+    },
+  },
   '@media screen and (min-width: 1920px)': {},
 };

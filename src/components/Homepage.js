@@ -6,12 +6,14 @@ import styles from '../styles/HomepageStyles';
 function Homepage(props) {
   const { classes } = props;
   return (
-    <div className={classes.body}>
-      <main>
+    <div className={classes.homeBackground}>
+      <main className={classes.main}>
         <div className={classes.callToAction}>
           <p className={classes.ctaText}>
-            Hard Tellin' and Songs From the Bitterroot are available for
-            purchase on Band Camp!
+            Hard Tellin' and Songs From the Bitterroot
+          </p>
+          <p className={classes.ctaText}>
+            are available for purchase on Band Camp!
           </p>
           <Button
             className={classes.ctaBtn}

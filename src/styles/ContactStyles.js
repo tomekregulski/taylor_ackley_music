@@ -1,3 +1,4 @@
+import image from '../images/landscape4.jpg';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   form: {
@@ -6,6 +7,14 @@ export default {
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: '4rem',
+  },
+  background: {
+    backgroundImage: `url(${image})`,
+    backgroundSize: '100%',
+    backgroundPosition: 'center center',
+    backgroundRepeat: 'no-repeat',
+    height: '92vh',
+    backgroundAttachment: 'fixed',
   },
   heading: {
     margin: '2rem 2rem 0 2rem',
@@ -78,6 +87,11 @@ export default {
     },
   },
   '@media screen and (min-width: 768px)': {},
-  '@media screen and (min-width: 1366px)': {},
+  '@media screen and (min-width: 1366px)': {
+    heading: {
+      marginTop: '2rem',
+      paddingTop: '4rem',
+    },
+  },
   '@media screen and (min-width: 1920px)': {},
 };

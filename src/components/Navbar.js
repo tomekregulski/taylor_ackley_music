@@ -8,7 +8,7 @@ function Navbar(props) {
   return (
     <nav className={classes.nav}>
       <div>
-        <Link className={classes.navLinkItem} to='/'>
+        <Link className={classes.titleLink} to='/'>
           <h1 className={classes.name}>Taylor Ackley</h1>
         </Link>
         {/* <ul className={classes.titleTags}>

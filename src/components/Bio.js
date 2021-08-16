@@ -6,10 +6,10 @@ import headshot from '../images/taylor_mandolin_headshot.jpg';
 function Bio(props) {
   const { classes } = props;
   return (
-    <>
-      <div>
+    <div className={classes.bioBackground}>
+      {/* <div>
         <h2 className={classes.title}>Bio</h2>
-      </div>
+      </div> */}
       <div className={classes.bioContainer}>
         <img
           className={classes.headshot}
@@ -49,7 +49,7 @@ function Bio(props) {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

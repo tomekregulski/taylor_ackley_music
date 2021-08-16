@@ -28,7 +28,7 @@ const Contact = (props) => {
   };
 
   return (
-    <>
+    <div className={classes.background}>
       <div className={classes.heading}>
         <h2 className={classes.title}>Get in touch!</h2>
         <p>
@@ -72,7 +72,7 @@ const Contact = (props) => {
           Send
         </Button>
       </form>
-    </>
+    </div>
   );
 };
 

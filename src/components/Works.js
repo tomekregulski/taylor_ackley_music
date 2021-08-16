@@ -8,10 +8,10 @@ import strings from '../images/strings.png';
 function Works(props) {
   const { classes } = props;
   return (
-    <>
-      <div>
+    <div className={classes.worksBackground}>
+      {/* <div>
         <h2 className={classes.title}>Works</h2>
-      </div>
+      </div> */}
       <div className={classes.allVideosContainer}>
         <div className={classes.videoContainer}>
           <iframe
@@ -37,7 +37,7 @@ function Works(props) {
         </div>
       </div>
       <div className={classes.allAlbumsContainer}>
-        <div className={(classes.hardTellinContainer, classes.albumContainer)}>
+        <div className={classes.albumContainer}>
           <a
             href='https://taylorackley.bandcamp.com/album/hard-tellin'
             target='_blank'
@@ -46,7 +46,7 @@ function Works(props) {
             <img
               src={hardTellin}
               alt="Hard Tellin'"
-              className={(classes.hardTellin, classes.albumContainer)}
+              className={classes.hardTellin}
             />
           </a>
           <p className={classes.workText}>
@@ -59,7 +59,7 @@ function Works(props) {
             cohesive approach to making music.
           </p>
         </div>
-        <div className={(classes.bitterrootContainer, classes.albumContainer)}>
+        <div className={classes.albumContainer}>
           <a
             href='https://taylorackley.bandcamp.com/album/songs-from-the-bitterroot'
             target='_blank'
@@ -77,7 +77,7 @@ function Works(props) {
             like "Far from Home", "Love Letters" and "That Don't Bother Me".
           </p>
         </div>
-        <div className={classes.stringsContainer}>
+        <div className={classes.albumContainer}>
           <a href='/'>
             <img src={strings} alt='26 Strings' className={classes.strings} />
           </a>
@@ -92,7 +92,7 @@ function Works(props) {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
