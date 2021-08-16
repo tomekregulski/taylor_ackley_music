@@ -10,25 +10,34 @@ html {
   height: 100%;
 }
 
+html,
 body {
-  background-image: url('./images/landscape4.jpg');
+  font-size: 16px;
+}
+
+/* body {
+  background-image: url('./images/taylor_up_close.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100%;
   line-height: 1;
-}
+} */
 
 header {
   text-align: center;
   margin-top: 100px;
 }
 
-header p {
-  font-size: 32px;
+h1 {
+  font-size: 2rem;
 }
 
-h1 {
-  font-size: 58px;
+h2 {
+  font-size: 1.7rem;
+}
+
+p {
+  font-size: 0.9rem;
 }
 
 input,
@@ -46,4 +55,14 @@ code {
 ol,
 ul {
   list-style: none;
+}
+
+@media screen and (min-width: 1000px) {
+  body,
+  html {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
 }

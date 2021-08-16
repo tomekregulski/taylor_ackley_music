@@ -8,29 +8,32 @@ function Navbar(props) {
   return (
     <nav className={classes.nav}>
       <div>
-        <h1 className={classes.name}>Taylor Ackley</h1>
-        <ul className={classes.titleTags}>
+        <Link className={classes.navLinkItem} to='/'>
+          <h1 className={classes.name}>Taylor Ackley</h1>
+        </Link>
+        {/* <ul className={classes.titleTags}>
           <li>performer</li>
           <li>composer</li>
           <li>educator</li>
-        </ul>
+        </ul> */}
       </div>
       <div className={classes.navLinks}>
-        <Link className={classes.navLinkItem} to='/'>
-          Home
-        </Link>
-        <Link className={classes.navLinkItem} to='/bio'>
-          Bio
-        </Link>
-        <Link className={classes.navLinkItem} to='/the-deep-roots'>
-          The Deep Roots
-        </Link>
-        <Link className={classes.navLinkItem} to='/works'>
-          Works
-        </Link>
-        <Link className={classes.navLinkItem} to='/contact'>
-          Contact
-        </Link>
+        <div className={classes.firstNavLinks}>
+          <Link className={classes.navLinkItem} to='/bio'>
+            Bio
+          </Link>
+          <Link className={classes.navLinkItem} to='/the-deep-roots'>
+            The Deep Roots
+          </Link>
+        </div>
+        <div className={classes.secondNavLinks}>
+          <Link className={classes.navLinkItem} to='/works'>
+            Works
+          </Link>
+          <Link className={classes.navLinkItem} to='/contact'>
+            Contact
+          </Link>
+        </div>
       </div>
     </nav>
   );

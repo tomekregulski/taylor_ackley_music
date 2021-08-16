@@ -1,30 +1,54 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  root: {
+  form: {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: '4rem',
-    padding: 'theme.spacing(2)',
-
-    '& .MuiTextField-root': {
-      margin: 'theme.spacing(1)',
-      width: '300px',
-    },
-    '& .MuiButtonBase-root': {
-      margin: 'theme.spacing(2)',
-    },
   },
   heading: {
-    marginTop: '6rem',
+    margin: '2rem 2rem 0 2rem',
     textAlign: 'center',
+  },
+  title: {
+    marginBottom: '1rem',
+  },
+  input: {
+    width: '70%',
+    padding: '1rem',
+    color: 'black',
+    backgroundColor: 'rgba(69,69,122,.4)',
+    border: 'none',
+    borderBottom: '1px solid black',
+    transition: 'ease-in',
+    marginBottom: '2rem',
+    '&::placeholder': {
+      color: 'black',
+      opacity: '1',
+    },
+  },
+  textarea: {
+    width: '70%',
+    padding: '1rem',
+    color: 'black',
+    backgroundColor: 'rgba(69,69,112,.4)',
+    border: 'none',
+    borderBottom: '1px solid black',
+    marginBottom: '2rem',
+    transition: 'ease-in',
+    resize: 'none',
+    '&::placeholder': {
+      color: 'black',
+      opacity: '1',
+    },
   },
   submitBtn: {
     animation: '$moveInBottom 5000ms',
     background: 'transparent',
     border: '2px solid #17D0FF',
     color: 'black',
+    padding: '.5rem 3rem',
     textAlign: 'center',
     textDecoration: 'none',
     display: 'inline-block',
@@ -42,4 +66,18 @@ export default {
       transition: '0.4s',
     },
   },
+  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 411px)': {},
+  '@media screen and (min-width: 660px)': {
+    input: {
+      width: '460px',
+    },
+    textarea: {
+      width: '460px',
+    },
+  },
+  '@media screen and (min-width: 768px)': {},
+  '@media screen and (min-width: 1366px)': {},
+  '@media screen and (min-width: 1920px)': {},
 };

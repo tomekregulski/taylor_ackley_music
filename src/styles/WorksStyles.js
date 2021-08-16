@@ -54,4 +54,10 @@ export default {
     textAlign: 'center',
     marginTop: '1rem',
   },
+  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 411px)': {},
+  '@media screen and (min-width: 768px)': {},
+  '@media screen and (min-width: 1366px)': {},
+  '@media screen and (min-width: 1920px)': {},
 };

@@ -6,7 +6,7 @@ import styles from '../styles/HomepageStyles';
 function Homepage(props) {
   const { classes } = props;
   return (
-    <div>
+    <div className={classes.body}>
       <main>
         <div className={classes.callToAction}>
           <p className={classes.ctaText}>

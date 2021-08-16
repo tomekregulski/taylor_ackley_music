@@ -1,8 +1,17 @@
 // eslint-disable-next-line import/no-anonymous-default-export
+// import image from '../images/4.jpg';
+import image from '../images/landscape2.jpg';
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   callToAction: {
     textAlign: 'center',
-    marginTop: '12rem',
+    paddingTop: '12rem',
+  },
+  body: {
+    backgroundImage: `url(${image})`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    height: '85vh',
   },
   ctaText: {
     marginBottom: '25px',
@@ -61,4 +70,10 @@ export default {
       transform: 'translateY(0)',
     },
   },
+  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 411px)': {},
+  '@media screen and (min-width: 768px)': {},
+  '@media screen and (min-width: 1366px)': {},
+  '@media screen and (min-width: 1920px)': {},
 };

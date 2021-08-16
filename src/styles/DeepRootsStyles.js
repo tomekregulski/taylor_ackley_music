@@ -49,4 +49,10 @@ export default {
     zIndex: '3',
     boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
+  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 411px)': {},
+  '@media screen and (min-width: 768px)': {},
+  '@media screen and (min-width: 1366px)': {},
+  '@media screen and (min-width: 1920px)': {},
 };
