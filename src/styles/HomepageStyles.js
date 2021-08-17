@@ -13,7 +13,7 @@ export default {
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
     height: '92vh',
-    backgroundAttachment: 'fixed',
+    // backgroundAttachment: 'fixed',
   },
   main: {
     position: 'absolute',

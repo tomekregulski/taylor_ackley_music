@@ -9,7 +9,7 @@ function Homepage(props) {
     <div className={classes.homeBackground}>
       <main className={classes.main}>
         <div className={classes.callToAction}>
-          <p className={classes.ctaText}>
+          {/* <p className={classes.ctaText}>
             Hard Tellin' and Songs From the Bitterroot
           </p>
           <p className={classes.ctaText}>
@@ -24,7 +24,7 @@ function Homepage(props) {
             color='primary'
           >
             Find Them Here!
-          </Button>
+          </Button> */}
         </div>
       </main>
     </div>

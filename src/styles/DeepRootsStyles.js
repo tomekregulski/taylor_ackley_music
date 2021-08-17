@@ -1,22 +1,33 @@
 import image from '../images/landscape1.jpg';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
-  title: {
-    textAlign: 'center',
-    marginTop: '2rem',
-    borderBottom: '1px solid black',
-    display: 'block',
+  // title: {
+  //   textAlign: 'center',
+  //   marginTop: '2rem',
+  //   borderBottom: '1px solid black',
+  //   display: 'block',
+  // },
+  logoContainer: {
+    display: 'flex',
+    justifyContent: 'center',
+    paddingTop: '2rem',
+  },
+  logo: {
+    width: '80vw',
   },
   textContainer: {
     margin: '2rem 2rem 0 2rem',
+    color: 'white',
   },
   rootsBackground: {
-    backgroundImage: `url(${image})`,
-    backgroundAttachment: 'fixed',
+    // backgroundImage: `url(${image})`,
+    // backgroundAttachment: 'fixed',
     backgroundSize: 'cover',
-    backgroundPosition: 'center center',
+    backgroundPosition: 'top center',
     backgroundRepeat: 'no-repeat',
-    height: '92vh',
+    // height: '92vh',
+    backgroundColor: 'black',
+    backgroundAttachment: 'fixed',
   },
   imgContainer: {
     // position: 'absolute',
@@ -28,25 +39,39 @@ export default {
     paddingBottom: '1rem',
   },
   large: {
-    width: '90vw',
+    width: '100vw',
     marginTop: '2rem',
-    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
+    // boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   taylorAllison: {
-    width: '90vw',
-    marginTop: '2rem',
-    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
+    width: '100vw',
+    marginTop: '6rem',
+    // boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   pose: {
-    width: '90vw',
-    marginTop: '2rem',
-    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
+    width: '100vw',
+    marginTop: '6rem',
+    // boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   '@media screen and (min-width: 360px)': {},
-  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 375px)': {},
   '@media screen and (min-width: 411px)': {},
   '@media screen and (min-width: 768px)': {},
   '@media screen and (min-width: 1100px)': {
+    logoContainer: {
+      // display: 'block',
+      // margin: '0 4rem 0 4rem',
+      paddingTop: '4rem',
+    },
+    logo: {
+      maxWidth: '1000px',
+    },
+    textContainer: {
+      marginTop: '4rem !important',
+    },
+    imgContainer: {
+      marginLeft: '25rem !important',
+    },
     large: {
       width: '30rem',
       marginTop: '2rem',
@@ -78,6 +103,9 @@ export default {
     },
   },
   '@media screen and (min-width: 1366px)': {
+    rootsBackground: {
+      height: '200vh',
+    },
     title: {
       textAlign: 'left',
       fontSize: '48px',

@@ -4,13 +4,21 @@ import styles from '../styles/DeepRootsStyles';
 import largeEnsemble from '../images/deep_roots_large.jpg';
 import taylorAllison from '../images/deep_roots_taylor_allison.jpg';
 import ensemblePose from '../images/deep_roots_pose.jpg';
+import logo from '../images/tdr_logo_clear_bg.png';
 
 function TheDeepRoots(props) {
   const { classes } = props;
   return (
     <div className={classes.rootsBackground}>
-      <div>
+      {/* <div>
         <h2 className={classes.title}>The Deep Roots Ensemble</h2>
+      </div> */}
+      <div className={classes.logoContainer}>
+        <img
+          className={classes.logo}
+          src={logo}
+          alt='Taylor Ackley And The Deep Roots Ensemble'
+        />
       </div>
       <div>
         <div>

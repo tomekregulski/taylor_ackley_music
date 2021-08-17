@@ -9,12 +9,12 @@ export default {
     marginTop: '4rem',
   },
   background: {
+    paddingTop: '2rem',
     backgroundImage: `url(${image})`,
-    backgroundSize: '100%',
+    backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
     height: '92vh',
-    backgroundAttachment: 'fixed',
   },
   heading: {
     margin: '2rem 2rem 0 2rem',
@@ -76,7 +76,7 @@ export default {
     },
   },
   '@media screen and (min-width: 360px)': {},
-  '@media screen and (min-width: 360px)': {},
+  '@media screen and (min-width: 375px)': {},
   '@media screen and (min-width: 411px)': {},
   '@media screen and (min-width: 660px)': {
     input: {

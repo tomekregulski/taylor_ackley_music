@@ -15,8 +15,8 @@ function Works(props) {
       <div className={classes.allVideosContainer}>
         <div className={classes.videoContainer}>
           <iframe
-            width='460'
-            height='260'
+            width='320'
+            height='188'
             src='https://www.youtube.com/embed/dKmCx_Oo22E'
             title='YouTube video player'
             frameborder='0'
@@ -26,8 +26,8 @@ function Works(props) {
         </div>
         <div className={classes.videoContainer}>
           <iframe
-            width='460'
-            height='260'
+            width='320'
+            height='188'
             src='https://www.youtube.com/embed/FSz-_9m8z7c'
             title='YouTube video player'
             frameborder='0'

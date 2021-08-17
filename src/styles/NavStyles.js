@@ -7,6 +7,7 @@ export default {
     display: 'flex',
     flexDirection: 'column',
     marginTop: '1rem',
+    marginBottom: '.5rem',
   },
   name: {
     // paddingBottom: '.7rem',
@@ -19,6 +20,9 @@ export default {
       color: 'black',
     },
   },
+  subtitle: {
+    display: 'none',
+  },
   // titleTags: {
   //   display: 'flex',
   //   justifyContent: 'space-around',
@@ -30,6 +34,7 @@ export default {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    marginTop: '.5rem',
   },
   firstNavLinks: {
     display: 'flex',
@@ -73,8 +78,13 @@ export default {
       justifyContent: 'space-between',
     },
     name: {
+      textAlign: 'left',
       // paddingBottom: '.7rem',
       // borderBottom: '1px solid black',
+    },
+    subtitle: {
+      display: 'block',
+      fontSize: '12px',
     },
     // titleTags: {
     //   display: 'flex',

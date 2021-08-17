@@ -18,19 +18,19 @@ export default {
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    height: '92vh',
     backgroundAttachment: 'fixed',
   },
   textContainer: {
     margin: '2rem 2rem 0 2rem',
+    backgroundColor: 'none',
   },
   paragraph: {
     marginBottom: '1rem',
   },
   headshot: {
-    width: '90vw',
-    marginTop: '2rem',
-    boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
+    width: '100vw',
+    // marginTop: '2rem',
+    // boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   '@media screen and (min-width: 360px)': {},
   '@media screen and (min-width: 375px)': {},
@@ -42,6 +42,9 @@ export default {
   },
   '@media screen and (min-width: 768px)': {},
   '@media screen and (min-width: 1366px)': {
+    bioBackground: {
+      height: '92vh',
+    },
     title: {
       textAlign: 'left',
       fontSize: '48px',
