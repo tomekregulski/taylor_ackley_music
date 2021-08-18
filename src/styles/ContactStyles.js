@@ -14,7 +14,7 @@ export default {
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    // height: '92vh',
+    height: '100vh',
     backgroundAttachment: 'fixed',
   },
   heading: {
@@ -34,7 +34,7 @@ export default {
     transition: 'ease-in',
     marginBottom: '2rem',
     '&::placeholder': {
-      color: 'black',
+      color: 'white',
       opacity: '1',
     },
   },
@@ -49,7 +49,7 @@ export default {
     transition: 'ease-in',
     resize: 'none',
     '&::placeholder': {
-      color: 'black',
+      color: 'white',
       opacity: '1',
     },
   },
@@ -57,7 +57,7 @@ export default {
     animation: '$moveInBottom 5000ms',
     background: 'transparent',
     border: '2px solid #17D0FF',
-    color: 'black',
+    color: 'white',
     padding: '.5rem 3rem',
     textAlign: 'center',
     textDecoration: 'none',

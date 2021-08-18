@@ -8,6 +8,8 @@ export default {
     flexDirection: 'column',
     marginTop: '1rem',
     marginBottom: '.5rem',
+    position: 'sticky',
+    top: '0,',
   },
   name: {
     // paddingBottom: '.7rem',

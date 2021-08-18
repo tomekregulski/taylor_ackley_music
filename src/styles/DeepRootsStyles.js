@@ -127,6 +127,7 @@ export default {
       margin: '2rem 12rem 0 14rem',
     },
     imgContainer: {
+      display: 'block',
       position: 'absolute',
       paddingTop: '3rem',
       paddingLeft: '15rem',
