@@ -2,6 +2,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from '../styles/BioStyles';
 import headshot from '../images/taylor_mandolin_headshot.jpg';
+import headshot2 from '../images/homepage/pics_72.jpg';
 
 function Bio(props) {
   const { classes } = props;
@@ -13,7 +14,7 @@ function Bio(props) {
       <div className={classes.bioContainer}>
         <img
           className={classes.headshot}
-          src={headshot}
+          src={headshot2}
           alt='Taylor Ackley and his mandolin'
         />
         <div className={classes.textContainer}>
