@@ -14,7 +14,8 @@ export default {
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
-    height: '92vh',
+    // height: '92vh',
+    backgroundAttachment: 'fixed',
   },
   heading: {
     margin: '2rem 2rem 0 2rem',

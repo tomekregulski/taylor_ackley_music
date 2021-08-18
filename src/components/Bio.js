@@ -23,29 +23,35 @@ function Bio(props) {
             American music, his work grows directly out of the rich musical
             expression cultivated across the generations of pickers, singers,
             song writers and fiddlers that populate his family tree. His
-            academic training began at Adelphi University where he studied
-            classical vocal performance, jazz bass and composition with Sidney
-            Boquiren, Christopher Lyndon-Gee and Paul Moravec. Taylor is
-            currently a graduate student at Stony Brook University, where he has
-            studied composition with Ray Anderson, Perry Goldstein, Margaret
-            Schedel, Daria Semegen and Daniel Weymouth. Along with his
-            substantial success as a multi-instrumentalist, Taylor has been
-            commissioned by a number of soloists, chamber ensembles, choirs and
-            jazz bands. His music has been featured in festivals throughout the
-            United States as well as Denmark and China.
+            academic training began at Adelphi University. He continued his
+            studies at Stony Brook University, where he earned a Master’s Degree
+            and a PhD in Composition as well as a Master’s Degree in
+            Ethnomusicology.
           </p>
           <p className={classes.paragraph}>
-            Taylor has composed large catalogue of original works, which explore
-            the various expressive languages he has learned from his wide range
-            of musical experiences. This has led to a recent compositional
-            output which simultaneously liberates and challenges musicians
-            through a unique combination of aural transmission, guided
-            improvisation and nontraditional notation coupled with an intense
-            reliance on the performer’s own ears. He is the founder and director
-            of the Stony Brook Roots Ensemble, a chamber music group which
-            focuses on studying and performing Traditional American Music. Their
-            debut album Songs from the Bitterroot, features all original music
-            and is released by 4Tay records.
+            Taylor is a scholar, composer and performer of American Roots music.
+            His research works to understand and analyze American Folk and Roots
+            music as art grounded in the experiences of poor and working-class
+            people. He has presented papers at a number of conferences and
+            panels including the International Bluegrass Music Association and
+            the Northwestern Chapter of the Society for Ethnomusicology and is
+            also in demand as a guest lecturer at colleges and public
+            institutions. He has recently given talks at Vassar College,
+            California State University Stanislaus, and the University of
+            Wisconsin-Stout. He is published by the MIT Press in Between the
+            Tracks. As a composer, Taylor has been commissioned by a number of
+            soloists, chamber ensembles, choirs and jazz bands. His music has
+            been featured in festivals throughout the United States as well as
+            Denmark and China.
+          </p>
+          <p className={classes.paragraph}>
+            Taylor is the founder and director of the Deep Roots Ensemble. A
+            group which merges classical chamber music instrumentation and
+            techniques with traditional American music performance practice into
+            a refined and cohesive style. They have performed around the United
+            States and have released two albums of Taylor’s music, Songs from
+            the Bitterroot (2018) and Hard Tellin’ (2020) both through the 4Tay
+            Records label.
           </p>
         </div>
       </div>

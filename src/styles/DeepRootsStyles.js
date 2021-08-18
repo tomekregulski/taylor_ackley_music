@@ -11,24 +11,26 @@ export default {
     display: 'flex',
     justifyContent: 'center',
     paddingTop: '2rem',
+    backgroundSize: 'cover',
+    backgroundPosition: 'top center',
+    backgroundRepeat: 'no-repeat',
+    backgroundColor: 'black',
+    backgroundAttachment: 'fixed',
   },
   logo: {
     width: '80vw',
   },
   textContainer: {
     margin: '2rem 2rem 0 2rem',
-    color: 'white',
+    color: 'black',
   },
-  rootsBackground: {
-    // backgroundImage: `url(${image})`,
-    // backgroundAttachment: 'fixed',
-    backgroundSize: 'cover',
-    backgroundPosition: 'top center',
-    backgroundRepeat: 'no-repeat',
-    // height: '92vh',
-    backgroundColor: 'black',
-    backgroundAttachment: 'fixed',
-  },
+  // rootsBackground: {
+  //   backgroundSize: 'cover',
+  //   backgroundPosition: 'top center',
+  //   backgroundRepeat: 'no-repeat',
+  //   backgroundColor: 'black',
+  //   backgroundAttachment: 'fixed',
+  // },
   imgContainer: {
     // position: 'absolute',
     marginTop: '1rem',
@@ -37,6 +39,11 @@ export default {
     justifyContent: 'center',
     alignItems: 'center',
     paddingBottom: '1rem',
+    backgroundSize: 'cover',
+    backgroundPosition: 'top center',
+    backgroundRepeat: 'no-repeat',
+    backgroundColor: 'black',
+    backgroundAttachment: 'fixed',
   },
   large: {
     width: '100vw',
@@ -70,7 +77,7 @@ export default {
       marginTop: '4rem !important',
     },
     imgContainer: {
-      marginLeft: '25rem !important',
+      paddingLeft: '10rem !important',
     },
     large: {
       width: '30rem',
@@ -121,8 +128,8 @@ export default {
     },
     imgContainer: {
       position: 'absolute',
-      marginTop: '3rem',
-      marginLeft: '15rem',
+      paddingTop: '3rem',
+      paddingLeft: '15rem',
     },
     large: {
       width: '35rem',

@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/styles';
 import styles from '../styles/WorksStyles';
 import hardTellin from '../images/hard_tellin.jpeg';
 import bitterroot from '../images/bitterroot.jpeg';
-import strings from '../images/strings.png';
+import strings from '../images/26_strings_dark_blue.png';
 
 function Works(props) {
   const { classes } = props;
@@ -12,7 +12,7 @@ function Works(props) {
       {/* <div>
         <h2 className={classes.title}>Works</h2>
       </div> */}
-      <div className={classes.allVideosContainer}>
+      {/* <div className={classes.allVideosContainer}>
         <div className={classes.videoContainer}>
           <iframe
             width='320'
@@ -35,9 +35,23 @@ function Works(props) {
             allowfullscreen
           />
         </div>
-      </div>
+      </div> */}
       <div className={classes.allAlbumsContainer}>
         <div className={classes.albumContainer}>
+          <h2>
+            <strong>
+              <em>Hard Tellin'</em>
+            </strong>
+          </h2>
+          <p className={classes.workText}>
+            Taylor Ackley and the Deep Roots Ensemble return with our second
+            album, Hard Tellin’. This work builds upon the approach heard in our
+            first release, Songs from the Bitterroot, blending American folk and
+            roots song with classical chamber music and jazz improvisation, but
+            expands our instrumental and creative scope. Exploring themes of
+            love, family, sin and salvation, this album captures a more refined,
+            cohesive approach to making music.
+          </p>
           <a
             href='https://taylorackley.bandcamp.com/album/hard-tellin'
             target='_blank'
@@ -49,17 +63,18 @@ function Works(props) {
               className={classes.hardTellin}
             />
           </a>
-          <p className={classes.workText}>
-            Taylor Ackley and the Deep Roots Ensemble return with our second
-            album, Hard Tellin’. This work builds upon the approach heard in our
-            first release, Songs from the Bitterroot, blending American folk and
-            roots song with classical chamber music and jazz improvisation, but
-            expands our instrumental and creative scope. Exploring themes of
-            love, family, sin and salvation, this album captures a more refined,
-            cohesive approach to making music.
-          </p>
         </div>
         <div className={classes.albumContainer}>
+          <h2>
+            <strong>
+              <em>Songs From the Bitterroot</em>
+            </strong>
+          </h2>
+          <p className={classes.workText}>
+            The first album by Taylor Ackley and the Deep Roots Ensemble, Songs
+            from the Bitterroot features all original music, including favorites
+            like "Far from Home", "Love Letters" and "That Don't Bother Me".
+          </p>
           <a
             href='https://taylorackley.bandcamp.com/album/songs-from-the-bitterroot'
             target='_blank'
@@ -71,16 +86,13 @@ function Works(props) {
               className={classes.bitterroot}
             />
           </a>
-          <p className={classes.workText}>
-            The first album by Taylor Ackley and the Deep Roots Ensemble, Songs
-            from the Bitterroot features all original music, including favorites
-            like "Far from Home", "Love Letters" and "That Don't Bother Me".
-          </p>
         </div>
         <div className={classes.albumContainer}>
-          <a href='/'>
-            <img src={strings} alt='26 Strings' className={classes.strings} />
-          </a>
+          <h2>
+            <strong>
+              <em>26 Strings</em>
+            </strong>
+          </h2>
           <p className={classes.workText}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, ad.
             Beatae, voluptatum provident repellendus consequuntur neque velit
@@ -90,6 +102,9 @@ function Works(props) {
             itaque. Aliquid dolores numquam, sequi sed praesentium provident cum
             labore, laudantium ducimus mollitia reprehenderit?
           </p>
+          <a href='/'>
+            <img src={strings} alt='26 Strings' className={classes.strings} />
+          </a>
         </div>
       </div>
     </div>
