@@ -19,10 +19,13 @@ export default {
     backgroundPosition: 'center center',
     backgroundRepeat: 'no-repeat',
     backgroundAttachment: 'fixed',
+    height: '0vh',
   },
   textContainer: {
     margin: '2rem 2rem 0 2rem',
-    backgroundColor: 'none',
+    // height: '20rem',
+    // overflow: 'hidden',
+    // overflowY: 'auto',
   },
   paragraph: {
     marginBottom: '1rem',
@@ -34,13 +37,23 @@ export default {
   },
   '@media screen and (min-width: 360px)': {},
   '@media screen and (min-width: 375px)': {},
-  '@media screen and (min-width: 411px)': {},
-  '@media screen and (min-width: 580px)': {
+  '@media screen and (min-width: 411px)': {
     headshot: {
-      width: '520px',
+      width: '370px',
+    },
+    bioBackground: {
+      height: '439px',
     },
   },
-  '@media screen and (min-width: 768px)': {},
+  '@media screen and (min-width: 580px)': {},
+  '@media screen and (min-width: 768px)': {
+    // headshot: {
+    //   width: '520px',
+    // },
+    // bioBackground: {
+    //   height: '617px',
+    // },
+  },
   '@media screen and (min-width: 1366px)': {
     bioBackground: {
       height: '92vh',
@@ -65,11 +78,14 @@ export default {
     },
     textContainer: {
       margin: '2rem 2rem 0 2rem',
+      height: '17rem',
+      overflow: 'hidden',
+      overflowY: 'auto',
     },
     headshot: {
       width: '20rem',
       marginTop: '2rem',
-      boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
+      boxShadow: '0px 0px 5px 5px rgba(47,44,71,.4)',
     },
   },
   '@media screen and (min-width: 1920px)': {},
