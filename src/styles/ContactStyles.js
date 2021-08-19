@@ -1,4 +1,4 @@
-import image from '../images/landscape4.jpg';
+import image from '../images/contact_banner.png';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   form: {
@@ -8,14 +8,17 @@ export default {
     alignItems: 'center',
     marginTop: '4rem',
   },
-  background: {
-    paddingTop: '2rem',
-    backgroundImage: `url(${image})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center center',
-    backgroundRepeat: 'no-repeat',
-    height: '100vh',
-    backgroundAttachment: 'fixed',
+  // background: {
+  //   paddingTop: '2rem',
+  //   backgroundImage: `url(${image})`,
+  //   backgroundSize: 'cover',
+  //   backgroundPosition: 'center center',
+  //   backgroundRepeat: 'no-repeat',
+  //   // backgroundAttachment: 'fixed',
+  //   height: '35vh',
+  // },
+  banner: {
+    width: '100vw',
   },
   heading: {
     margin: '2rem 2rem 0 2rem',
@@ -34,7 +37,7 @@ export default {
     transition: 'ease-in',
     marginBottom: '2rem',
     '&::placeholder': {
-      color: 'white',
+      color: 'black',
       opacity: '1',
     },
   },
@@ -49,7 +52,7 @@ export default {
     transition: 'ease-in',
     resize: 'none',
     '&::placeholder': {
-      color: 'white',
+      color: 'black',
       opacity: '1',
     },
   },
@@ -57,12 +60,13 @@ export default {
     animation: '$moveInBottom 5000ms',
     background: 'transparent',
     border: '2px solid #17D0FF',
-    color: 'white',
+    color: 'black',
     padding: '.5rem 3rem',
     textAlign: 'center',
     textDecoration: 'none',
     display: 'inline-block',
     fontWeight: '400',
+    marginBottom: '5rem',
     transition: '.7s',
     '&:hover': {
       transform: 'translateY(-3px)',
@@ -87,7 +91,11 @@ export default {
       width: '460px',
     },
   },
-  '@media screen and (min-width: 768px)': {},
+  '@media screen and (min-width: 768px)': {
+    banner: {
+      width: '100vw',
+    },
+  },
   '@media screen and (min-width: 1366px)': {
     heading: {
       marginTop: '2rem',

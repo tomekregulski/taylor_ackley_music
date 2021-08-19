@@ -4,6 +4,7 @@ import styles from '../styles/DeepRootsStyles';
 import largeEnsemble from '../images/deep_roots_large.jpg';
 import taylorAllison from '../images/deep_roots_taylor_allison.jpg';
 import ensemblePose from '../images/deep_roots_pose.jpg';
+import red_barn from '../images/red_barn.jpg';
 import logo from '../images/tdr_logo_clear_bg.png';
 
 function TheDeepRoots(props) {
@@ -54,6 +55,11 @@ function TheDeepRoots(props) {
           <img
             className={classes.pose}
             src={ensemblePose}
+            alt='Deep Roots Ensemble posing after a recording session'
+          />
+          <img
+            className={classes.red_barn}
+            src={red_barn}
             alt='Deep Roots Ensemble posing after a recording session'
           />
         </div>

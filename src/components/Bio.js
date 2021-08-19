@@ -3,14 +3,19 @@ import { withStyles } from '@material-ui/styles';
 import styles from '../styles/BioStyles';
 import headshot from '../images/taylor_mandolin_headshot.jpg';
 import headshot2 from '../images/homepage/pics_72.jpg';
+import banner from '../images/bio_banner.png';
 
 function Bio(props) {
   const { classes } = props;
   return (
-    <div className={classes.bioBackground}>
+    <div>
       {/* <div>
         <h2 className={classes.title}>Bio</h2>
       </div> */}
+      {/* <div className={classes.bioBackground}></div> */}
+      <div>
+        <img className={classes.banner} src={banner} alt='Mountains' />
+      </div>
       <div className={classes.bioContainer}>
         <img
           className={classes.headshot}

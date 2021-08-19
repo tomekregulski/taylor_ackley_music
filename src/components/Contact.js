@@ -4,6 +4,7 @@ import Button from '@material-ui/core/Button';
 import { useForm } from 'react-hook-form';
 import { init, sendForm } from 'emailjs-com';
 import styles from '../styles/ContactStyles';
+import image from '../images/contact_banner.png';
 
 init('user_sWNT4oROPiAoUGksmqFlD');
 
@@ -28,13 +29,14 @@ const Contact = (props) => {
   };
 
   return (
-    <div className={classes.background}>
+    <div>
+      <div className={classes.worksBackground}>
+        <img className={classes.banner} src={image} alt='Mountains' />
+      </div>
       <div className={classes.heading}>
         <h2 className={classes.title}>Get in touch!</h2>
-        <p>
-          I'd love to hear from you! Please use the form below to send a brief
-          message, and I'll be happy to get back to you.
-        </p>
+        <p>Please use the form below to send a brief message,</p>
+        <p>and I'll be happy to get back to you.</p>
       </div>
       <form
         id='contact-form'

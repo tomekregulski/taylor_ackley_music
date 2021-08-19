@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-anonymous-default-export
-import image2 from '../images/landscape2.jpg';
+import image2 from '../images/mountains_banner.png';
 import image from '../images/sky.png';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -9,14 +9,17 @@ export default {
   //   borderBottom: '1px solid black',
   //   display: 'block',
   // },
-  worksBackground: {
-    borderTop: '1px solid black',
-    paddingTop: '2rem',
-    backgroundImage: `url(${image})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'top center',
-    backgroundRepeat: 'no-repeat',
-    backgroundAttachment: 'fixed',
+  // worksBackgroundSmall: {
+  //   // borderTop: '1px solid black',
+  //   paddingTop: '2rem',
+  //   backgroundImage: `url(${image})`,
+  //   backgroundSize: 'cover',
+  //   backgroundPosition: 'top center',
+  //   backgroundRepeat: 'no-repeat',
+  //   // backgroundAttachment: 'fixed',
+  // },
+  banner: {
+    width: '100vw',
   },
   allVideosContainer: {
     display: 'flex',
@@ -84,11 +87,25 @@ export default {
     },
   },
   '@media screen and (min-width: 768px)': {
+    worksBackgroundSmall: {
+      backgroundImage: 'none',
+    },
+    banner: {
+      width: '100vw',
+    },
     allAlbumsContainer: {
       flexWrap: 'wrap',
       justifyContent: 'center',
       alignItems: 'center',
     },
+    // worksBackground: {
+    //   paddingTop: '2rem',
+    //   backgroundImage: `url(${image2})`,
+    //   backgroundSize: 'cover',
+    //   backgroundPosition: 'center center',
+    //   backgroundRepeat: 'no-repeat',
+    //   height: '45vh',
+    // },
     albumContainer: {
       marginLeft: '1rem',
       display: 'flex',
@@ -97,6 +114,7 @@ export default {
     workText: {
       width: '32rem',
       marginLeft: '1rem',
+      textAlign: 'left',
     },
     hardTellin: {
       width: '15rem',
@@ -122,17 +140,16 @@ export default {
       marginLeft: '14rem',
       paddingRight: '.5rem',
       paddingBottom: '.5rem',
-      borderBottom: '1px solid black',
       display: 'inline-block',
     },
-    worksBackground: {
-      paddingTop: '2rem',
-      backgroundImage: `url(${image2})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'top center',
-      backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'fixed',
-    },
+    // worksBackground: {
+    //   paddingTop: '2rem',
+    //   backgroundImage: `url(${image2})`,
+    //   backgroundSize: 'cover',
+    //   backgroundPosition: 'center center',
+    //   backgroundRepeat: 'no-repeat',
+    //   height: '45vh',
+    // },
     // allVideosContainer: {
     //   display: 'flex',
     //   flexDirection: 'row',

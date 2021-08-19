@@ -10,6 +10,15 @@ export default {
     textAlign: 'center',
     paddingTop: '12rem',
   },
+  frontCoverContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  frontCover: {
+    display: 'none',
+  },
   homeBackground: {
     backgroundImage: `url(${image})`,
     backgroundSize: 'cover',
@@ -21,10 +30,10 @@ export default {
   main: {
     position: 'absolute',
   },
-  ctaText: {
-    marginBottom: '25px',
-    animation: '$hiSlide 5000ms',
-  },
+  // ctaText: {
+  //   marginBottom: '25px',
+  //   animation: '$hiSlide 5000ms',
+  // },
   ctaBtn: {
     animation: '$moveInBottom 5000ms',
     background: 'transparent',
@@ -82,19 +91,29 @@ export default {
   '@media screen and (min-width: 375px)': {},
   '@media screen and (min-width: 411px)': {},
   '@media screen and (min-width: 768px)': {},
+  '@media screen and (min-width: 1000px)': {
+    homeBackground: {
+      backgroundImage: 'none',
+      height: '0vh',
+    },
+    frontCover: {
+      display: 'block',
+      width: '100vw',
+    },
+  },
   '@media screen and (min-width: 1366px)': {
-    callToAction: {
-      position: 'relative',
-      left: '58rem',
-      bottom: '10rem',
-    },
-    ctaText: {
-      marginBottom: '0',
-      fontWeight: '300',
-    },
-    ctaBtn: {
-      marginTop: '20px',
-    },
+    // callToAction: {
+    //   position: 'relative',
+    //   left: '58rem',
+    //   bottom: '10rem',
+    // },
+    // ctaText: {
+    //   marginBottom: '0',
+    //   fontWeight: '300',
+    // },
+    // ctaBtn: {
+    //   marginTop: '20px',
+    // },
   },
   '@media screen and (min-width: 1920px)': {},
 };

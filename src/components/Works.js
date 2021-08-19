@@ -4,11 +4,15 @@ import styles from '../styles/WorksStyles';
 import hardTellin from '../images/hard_tellin.jpeg';
 import bitterroot from '../images/bitterroot.jpeg';
 import strings from '../images/26_strings_dark_blue.png';
+import image2 from '../images/mountains_banner.png';
 
 function Works(props) {
   const { classes } = props;
   return (
-    <div className={classes.worksBackground}>
+    <div className={classes.worksBackgroundSmall}>
+      <div className={classes.worksBackground}>
+        <img className={classes.banner} src={image2} alt='Mountains' />
+      </div>
       {/* <div>
         <h2 className={classes.title}>Works</h2>
       </div> */}

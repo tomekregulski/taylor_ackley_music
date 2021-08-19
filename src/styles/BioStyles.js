@@ -13,14 +13,18 @@ export default {
     justifyContent: 'center',
     alignItems: 'center',
   },
-  bioBackground: {
-    backgroundImage: `url(${image})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center center',
-    backgroundRepeat: 'no-repeat',
-    backgroundAttachment: 'fixed',
-    height: '0vh',
+  banner: {
+    display: 'none',
   },
+  // bioBackground: {
+  //   backgroundImage: `url(${image})`,
+  //   backgroundSize: 'cover',
+  //   backgroundPosition: 'center center',
+  //   backgroundRepeat: 'no-repeat',
+  //   // backgroundAttachment: 'fixed',
+  //   height: '0vh',
+  // },
+
   textContainer: {
     margin: '2rem 2rem 0 2rem',
     // height: '20rem',
@@ -31,6 +35,7 @@ export default {
     marginBottom: '1rem',
   },
   headshot: {
+    marginTop: '2rem',
     width: '100vw',
     // marginTop: '2rem',
     // boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
@@ -47,6 +52,22 @@ export default {
   },
   '@media screen and (min-width: 580px)': {},
   '@media screen and (min-width: 768px)': {
+    banner: {
+      display: 'block',
+      width: '100vw',
+    },
+    bioContainer: {
+      display: 'flex',
+      flexDirection: 'column-reverse',
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    headshot: {
+      marginBottom: '5rem',
+    },
+    textContainer: {
+      marginTop: '4rem',
+    },
     // headshot: {
     //   width: '520px',
     // },
@@ -56,7 +77,7 @@ export default {
   },
   '@media screen and (min-width: 1366px)': {
     bioBackground: {
-      height: '92vh',
+      height: '35vh',
     },
     title: {
       textAlign: 'left',
@@ -78,14 +99,15 @@ export default {
     },
     textContainer: {
       margin: '2rem 2rem 0 2rem',
-      height: '17rem',
-      overflow: 'hidden',
-      overflowY: 'auto',
+      // height: '17rem',
+      // overflow: 'hidden',
+      // overflowY: 'auto',
     },
     headshot: {
-      width: '20rem',
+      width: '25rem',
       marginTop: '2rem',
-      boxShadow: '0px 0px 5px 5px rgba(47,44,71,.4)',
+      marginBottom: '5rem',
+      // boxShadow: '0px 0px 5px 5px rgba(47,44,71,.4)',
     },
   },
   '@media screen and (min-width: 1920px)': {},

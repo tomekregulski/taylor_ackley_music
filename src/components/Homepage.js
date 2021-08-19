@@ -2,14 +2,18 @@ import React from 'react';
 import { Button } from '@material-ui/core';
 import { withStyles } from '@material-ui/styles';
 import styles from '../styles/HomepageStyles';
+import image from '../images/homepage/still_19.jpg';
 
 function Homepage(props) {
   const { classes } = props;
   return (
     <div className={classes.homeBackground}>
       <main className={classes.main}>
-        <div className={classes.callToAction}>
-          {/* <p className={classes.ctaText}>
+        <div className={classes.frontCoverContainer}>
+          <img src={image} alt='Taylor Ackley' className={classes.frontCover} />
+        </div>
+        {/* <div className={classes.callToAction}> */}
+        {/* <p className={classes.ctaText}>
             Hard Tellin' and Songs From the Bitterroot
           </p>
           <p className={classes.ctaText}>
@@ -25,7 +29,7 @@ function Homepage(props) {
           >
             Find Them Here!
           </Button> */}
-        </div>
+        {/* </div> */}
       </main>
     </div>
   );
