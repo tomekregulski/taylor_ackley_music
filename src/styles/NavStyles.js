@@ -64,8 +64,7 @@ export default {
   },
   '@media screen and (min-width: 360px)': {},
   '@media screen and (min-width: 411px)': {},
-  '@media screen and (min-width: 768px)': {},
-  '@media screen and (min-width: 1366px)': {
+  '@media screen and (min-width: 1000px)': {
     nav: {
       flexDirection: 'row',
       justifyContent: 'space-between',
@@ -99,5 +98,6 @@ export default {
       marginRight: '2rem',
     },
   },
+  '@media screen and (min-width: 1366px)': {},
   '@media screen and (min-width: 1920px)': {},
 };

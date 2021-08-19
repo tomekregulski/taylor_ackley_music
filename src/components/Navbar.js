@@ -16,9 +16,9 @@ function Navbar(props) {
         </Link>
         <p className={classes.subtitle}>and his Deep Roots Ensemble.</p>
         {/* <ul className={classes.titleTags}>
-          <li>performer</li>
-          <li>composer</li>
-          <li>educator</li>
+          <li>Performer</li>
+          <li>Composer</li>
+          <li>Educator</li>
         </ul> */}
       </div>
       <div className={classes.navLinks}>
