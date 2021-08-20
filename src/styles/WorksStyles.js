@@ -140,13 +140,7 @@ export default {
   },
   '@media screen and (min-width: 1100px)': {
     title: {
-      textAlign: 'left',
-      fontSize: '48px',
-      marginTop: '3rem',
-      marginLeft: '14rem',
-      paddingRight: '.5rem',
-      paddingBottom: '.5rem',
-      display: 'inline-block',
+      fontWeight: 'bold',
     },
     // worksBackground: {
     //   paddingTop: '2rem',

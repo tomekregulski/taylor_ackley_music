@@ -55,16 +55,13 @@ function Works(props) {
           </a>
           <p className={classes.workText}>
             Taylor Ackley and the Deep Roots Ensemble return with our second
-            album,
-            <strong>
-              <em>Hard Tellin' </em>
-            </strong>
-            . This work builds upon the approach heard in our first release,
-            Songs from the Bitterroot, blending American folk and roots song
-            with classical chamber music and jazz improvisation, but expands our
-            instrumental and creative scope. Exploring themes of love, family,
-            sin and salvation, this album captures a more refined, cohesive
-            approach to making music.
+            album,<em className={classes.title}> Hard Tellin'</em>. This work
+            builds upon the approach heard in our first release,
+            <em> Songs from the Bitterroot</em>, blending American folk and
+            roots song with classical chamber music and jazz improvisation, but
+            expands our instrumental and creative scope. Exploring themes of
+            love, family, sin and salvation, this album captures a more refined,
+            cohesive approach to making music.
           </p>
         </div>
         <div className={classes.albumContainer}>
@@ -81,9 +78,7 @@ function Works(props) {
           </a>
           <p className={classes.workText}>
             The first album by Taylor Ackley and the Deep Roots Ensemble,
-            <strong>
-              <em>Songs From the Bitterroot </em>
-            </strong>
+            <em className={classes.title}> Songs From the Bitterroot </em>
             features all original music, including favorites like "Far from
             Home", "Love Letters" and "That Don't Bother Me".
           </p>
@@ -93,9 +88,7 @@ function Works(props) {
             <img src={strings} alt='26 Strings' className={classes.strings} />
           </a>
           <p className={classes.workText}>
-            <strong>
-              <em>26 Strings </em>
-            </strong>
+            <em className={classes.title}>26 Strings </em>
             grows out of the friendship and musical connection between master
             bluegrass mandolinist Buddy Merriam and composer and mandolinist
             Taylor Ackley. This album of mandolin duet music features original

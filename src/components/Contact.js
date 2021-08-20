@@ -35,7 +35,7 @@ const Contact = (props) => {
       </div>
       <div className={classes.heading}>
         <h2 className={classes.title}>Get in touch!</h2>
-        <p>Please this form to send a brief message,</p>
+        <p>Please use this form to send a brief message,</p>
         <p>and I'll be happy to get back to you.</p>
       </div>
       <form

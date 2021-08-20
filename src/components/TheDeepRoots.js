@@ -32,13 +32,14 @@ function TheDeepRoots(props) {
             improvisation into a refined and cohesive approach to making music.
             This results in an artistic output which is highly innovative while
             remaining familiar and relatable to audiences with a wide range of
-            tastes. Their first album Songs from the Bitterroot was financed
-            through a social media, crowdfunding campaign and got them signed to
-            the 4Tay Records label. In their latest release, Hard Tellin’, The
-            Deep Roots Ensemble builds upon the sound heard in first album, but
-            expands its instrumental and creative scope. Exploring themes of
-            love, family, sin and salvation, Hard Tellin', captures a more
-            developed and intricate approach to American roots music.
+            tastes. Their first album, <em>Songs from the Bitterroot</em>, was
+            financed through a social media, crowdfunding campaign and got them
+            signed to the 4Tay Records label. In their latest release,
+            <em> Hard Tellin’</em>, The Deep Roots Ensemble builds upon the
+            sound heard in first album, but expands its instrumental and
+            creative scope. Exploring themes of love, family, sin and salvation,
+            <em> Hard Tellin'</em>, captures a more developed and intricate
+            approach to American roots music.
           </p>
         </div>
         <div className={classes.imgContainer}>
