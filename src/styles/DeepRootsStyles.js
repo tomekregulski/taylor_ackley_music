@@ -18,7 +18,7 @@ export default {
     backgroundAttachment: 'fixed',
   },
   logo: {
-    width: '80vw',
+    maxWidth: '60vw',
   },
   textContainer: {
     margin: '2rem 2rem 0 2rem',
@@ -80,7 +80,7 @@ export default {
       paddingTop: '4rem',
     },
     logo: {
-      maxWidth: '1000px',
+      maxWidth: '40vw',
     },
     textContainer: {
       marginTop: '4rem !important',

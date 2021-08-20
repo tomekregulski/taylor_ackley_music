@@ -58,8 +58,8 @@ export default {
       color: 'black',
     },
     '&:hover': {
-      color: 'white',
-      textShadow: '0.2rem 0.2rem 10px black',
+      color: 'rgb(196, 125, 79)',
+      // textShadow: '0.2rem 0.2rem 10px black',
     },
   },
   '@media screen and (min-width: 360px)': {},

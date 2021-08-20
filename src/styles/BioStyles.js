@@ -94,8 +94,8 @@ export default {
       flexDirection: 'row-reverse',
       alignItems: 'flex-start',
       paddingTop: '2rem',
-      marginLeft: '12rem',
-      marginRight: '6rem',
+      marginLeft: '8rem',
+      marginRight: '8rem',
     },
     textContainer: {
       margin: '2rem 2rem 0 2rem',
