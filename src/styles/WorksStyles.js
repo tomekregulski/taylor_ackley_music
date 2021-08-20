@@ -17,6 +17,7 @@ export default {
   // },
   banner: {
     width: '100vw',
+    // display: 'none',
   },
   allVideosContainer: {
     display: 'flex',
@@ -31,6 +32,7 @@ export default {
   allAlbumsContainer: {
     display: 'flex',
     marginTop: '2rem',
+    paddingBottom: '5rem',
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
@@ -67,6 +69,10 @@ export default {
   '@media screen and (min-width: 375px)': {},
   '@media screen and (min-width: 411px)': {},
   '@media screen and (min-width: 511px)': {
+    banner: {
+      width: '100vw',
+      display: 'block',
+    },
     hardTellin: {
       width: '460px',
       marginTop: '2rem',
@@ -81,6 +87,9 @@ export default {
       width: '460px',
       marginTop: '2rem',
       // boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
+    },
+    workText: {
+      width: '470px',
     },
   },
   '@media screen and (min-width: 768px)': {

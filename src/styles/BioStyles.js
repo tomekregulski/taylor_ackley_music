@@ -13,7 +13,8 @@ export default {
     alignItems: 'center',
   },
   banner: {
-    display: 'none',
+    // display: 'none',
+    width: '100vw',
   },
   // bioBackground: {
   //   backgroundImage: `url(${image})`,
@@ -93,6 +94,7 @@ export default {
       flexDirection: 'row-reverse',
       alignItems: 'flex-start',
       paddingTop: '2rem',
+      paddingBottom: '5rem',
       marginLeft: '8rem',
       marginRight: '8rem',
     },

@@ -2,7 +2,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from '../styles/WorksStyles';
 import hardTellin from '../images/small/hard_tellin.jpeg';
-import bitterroot from '../images/small/bitterroot.jpeg';
+import bitterroot from '../images/small/bitterroot.png';
 import strings from '../images/small/26_strings_dark_blue.png';
 import image2 from '../images/small/mountains_banner.png';
 

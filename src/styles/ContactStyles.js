@@ -17,6 +17,7 @@ export default {
   //   height: '35vh',
   // },
   banner: {
+    // display: 'none',
     width: '100vw',
   },
   heading: {
@@ -92,6 +93,7 @@ export default {
   },
   '@media screen and (min-width: 768px)': {
     banner: {
+      dispaly: 'block',
       width: '100vw',
     },
   },
