@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-anonymous-default-export
 // import image from '../images/4.jpg';
-import image from '../images/homepage/still_19.jpg';
+import image from '../images/small/still_19.jpg';
 // MAYBES: pics_72, still_7, still_33
 // 4 stars: still_36
 // 5 Stars: still_19
