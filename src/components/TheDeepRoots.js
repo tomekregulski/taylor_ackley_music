@@ -3,7 +3,7 @@ import { withStyles } from '@material-ui/styles';
 import styles from '../styles/DeepRootsStyles';
 import largeEnsemble from '../images/small/deep_roots_large.jpg';
 import taylorAllison from '../images/small/deep_roots_taylor_allison.jpg';
-import ensemblePose from '../images/small/deep_roots_pose.jpg';
+import ensemblePose from '../images/small/session.jpg';
 import red_barn from '../images/small/red_barn.jpg';
 import logo from '../images/small/tdr_logo_clear_bg.png';
 
@@ -53,11 +53,11 @@ function TheDeepRoots(props) {
             src={taylorAllison}
             alt='Taylor and Allison performing'
           />
-          <img
+          {/* <img
             className={classes.pose}
             src={ensemblePose}
             alt='Deep Roots Ensemble posing after a recording session'
-          />
+          /> */}
           <img
             className={classes.red_barn}
             src={red_barn}
