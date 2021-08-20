@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@material-ui/core';
 import { withStyles } from '@material-ui/styles';
 import styles from '../styles/HomepageStyles';
-import image from '../images/homepage/still_19.jpg';
+import image from '../images/small/still_19.jpg';
 
 function Homepage(props) {
   const { classes } = props;

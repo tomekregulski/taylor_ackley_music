@@ -1,7 +1,4 @@
 // eslint-disable-next-line import/no-anonymous-default-export
-import image from '../images/landscape2.jpg';
-
-// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   nav: {
     display: 'flex',

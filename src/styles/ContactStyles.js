@@ -1,4 +1,3 @@
-import image from '../images/contact_banner.png';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   form: {
@@ -59,7 +58,7 @@ export default {
   submitBtn: {
     animation: '$moveInBottom 5000ms',
     background: 'transparent',
-    border: '2px solid #17D0FF',
+    border: '2px solid rgb(0, 66, 114)',
     color: 'black',
     padding: '.5rem 3rem',
     textAlign: 'center',

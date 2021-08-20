@@ -6,7 +6,6 @@ import Bio from './components/Bio';
 import TheDeepRoots from './components/TheDeepRoots';
 import Works from './components/Works';
 import Contact from './components/Contact';
-import { makeStyles } from '@material-ui/core';
 
 function App() {
   return (

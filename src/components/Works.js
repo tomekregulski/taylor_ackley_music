@@ -1,10 +1,10 @@
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from '../styles/WorksStyles';
-import hardTellin from '../images/hard_tellin.jpeg';
-import bitterroot from '../images/bitterroot.jpeg';
-import strings from '../images/26_strings_dark_blue.png';
-import image2 from '../images/mountains_banner.png';
+import hardTellin from '../images/small/hard_tellin.jpeg';
+import bitterroot from '../images/small/bitterroot.jpeg';
+import strings from '../images/small/26_strings_dark_blue.png';
+import image2 from '../images/small/mountains_banner.png';
 
 function Works(props) {
   const { classes } = props;

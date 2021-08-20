@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import { useForm } from 'react-hook-form';
 import { init, sendForm } from 'emailjs-com';
 import styles from '../styles/ContactStyles';
-import image from '../images/contact_banner.png';
+import image from '../images/small/contact_banner.png';
 
 init('user_sWNT4oROPiAoUGksmqFlD');
 

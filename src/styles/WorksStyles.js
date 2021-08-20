@@ -1,7 +1,4 @@
 // eslint-disable-next-line import/no-anonymous-default-export
-import image2 from '../images/mountains_banner.png';
-import image from '../images/sky.png';
-// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   // title: {
   //   textAlign: 'center',

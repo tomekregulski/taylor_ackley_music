@@ -1,11 +1,11 @@
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from '../styles/DeepRootsStyles';
-import largeEnsemble from '../images/deep_roots_large.jpg';
-import taylorAllison from '../images/deep_roots_taylor_allison.jpg';
-import ensemblePose from '../images/deep_roots_pose.jpg';
-import red_barn from '../images/red_barn.jpg';
-import logo from '../images/tdr_logo_clear_bg.png';
+import largeEnsemble from '../images/small/deep_roots_large.jpg';
+import taylorAllison from '../images/small/deep_roots_taylor_allison.jpg';
+import ensemblePose from '../images/small/deep_roots_pose.jpg';
+import red_barn from '../images/small/red_barn.jpg';
+import logo from '../images/small/tdr_logo_clear_bg.png';
 
 function TheDeepRoots(props) {
   const { classes } = props;

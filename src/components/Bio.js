@@ -1,9 +1,8 @@
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
 import styles from '../styles/BioStyles';
-import headshot from '../images/taylor_mandolin_headshot.jpg';
-import headshot2 from '../images/homepage/pics_72.jpg';
-import banner from '../images/bio_banner.png';
+import headshot2 from '../images/small/pics_72.jpg';
+import banner from '../images/small/bio_banner.png';
 
 function Bio(props) {
   const { classes } = props;

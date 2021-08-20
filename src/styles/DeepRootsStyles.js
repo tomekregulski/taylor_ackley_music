@@ -1,4 +1,3 @@
-// import image from '../images/landscape1.jpg';
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   // title: {
