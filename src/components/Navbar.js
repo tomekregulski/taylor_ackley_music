@@ -14,7 +14,7 @@ function Navbar(props) {
         <Link className={classes.titleLink} to='/'>
           <h1 className={classes.name}>Taylor Ackley</h1>
         </Link>
-        <p className={classes.subtitle}>and his Deep Roots Ensemble.</p>
+        {/* <p className={classes.subtitle}>and his Deep Roots Ensemble.</p> */}
         {/* <ul className={classes.titleTags}>
           <li>Performer</li>
           <li>Composer</li>
