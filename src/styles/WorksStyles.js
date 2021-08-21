@@ -16,8 +16,8 @@ export default {
   //   // backgroundAttachment: 'fixed',
   // },
   banner: {
-    width: '100vw',
-    // display: 'none',
+    // width: '100vw',
+    display: 'none',
   },
   allVideosContainer: {
     display: 'flex',

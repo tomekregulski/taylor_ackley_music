@@ -13,8 +13,8 @@ export default {
     alignItems: 'center',
   },
   banner: {
-    // display: 'none',
-    width: '100vw',
+    display: 'none',
+    // width: '100vw',
   },
   // bioBackground: {
   //   backgroundImage: `url(${image})`,
@@ -42,16 +42,12 @@ export default {
   },
   '@media screen and (min-width: 360px)': {},
   '@media screen and (min-width: 375px)': {},
-  '@media screen and (min-width: 411px)': {
+  '@media screen and (min-width: 411px)': {},
+  '@media screen and (min-width: 511px)': {
     headshot: {
       width: '370px',
+      marginBottom: '5rem',
     },
-    bioBackground: {
-      height: '439px',
-    },
-  },
-  '@media screen and (min-width: 580px)': {},
-  '@media screen and (min-width: 768px)': {
     banner: {
       display: 'block',
       width: '100vw',
@@ -62,11 +58,15 @@ export default {
       justifyContent: 'center',
       alignItems: 'center',
     },
-    headshot: {
-      marginBottom: '5rem',
+  },
+  '@media screen and (min-width: 768px)': {
+    banner: {
+      display: 'block',
+      width: '100vw',
     },
+
     textContainer: {
-      marginTop: '4rem',
+      margin: '2rem 2rem 0 2rem',
     },
     // headshot: {
     //   width: '520px',
@@ -98,12 +98,7 @@ export default {
       marginLeft: '8rem',
       marginRight: '8rem',
     },
-    textContainer: {
-      margin: '2rem 2rem 0 2rem',
-      // height: '17rem',
-      // overflow: 'hidden',
-      // overflowY: 'auto',
-    },
+
     headshot: {
       width: '25rem',
       marginTop: '2rem',
