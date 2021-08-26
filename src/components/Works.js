@@ -13,6 +13,10 @@ function Works(props) {
       <div className={classes.worksBackground}>
         <img className={classes.banner} src={image2} alt='Mountains' />
       </div>
+      <div className={classes.heading}>
+        <h2>Published and Upcoming Releases</h2>
+        <p>Click an album cover to listen/purchase</p>
+      </div>
       {/* <div>
         <h2 className={classes.title}>Works</h2>
       </div> */}
@@ -84,11 +88,11 @@ function Works(props) {
           </p>
         </div>
         <div className={classes.albumContainer}>
-          <a href='/'>
-            <img src={strings} alt='26 Strings' className={classes.strings} />
-          </a>
+          {/* <a href='/'> */}
+          <img src={strings} alt='26 Strings' className={classes.strings} />
+          {/* </a> */}
           <p className={classes.workText}>
-            <em className={classes.title}>26 Strings </em>
+            Not yet released - <em className={classes.title}>26 Strings </em>
             grows out of the friendship and musical connection between master
             bluegrass mandolinist Buddy Merriam and composer and mandolinist
             Taylor Ackley. This album of mandolin duet music features original

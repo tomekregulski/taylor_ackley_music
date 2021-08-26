@@ -19,19 +19,23 @@ export default {
     // width: '100vw',
     display: 'none',
   },
-  allVideosContainer: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingTop: '2rem',
-  },
-  videoContainer: {
+  heading: {
+    textAlign: 'center',
     marginTop: '2rem',
   },
+  // allVideosContainer: {
+  //   display: 'flex',
+  //   flexDirection: 'column',
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   paddingTop: '2rem',
+  // },
+  // videoContainer: {
+  //   marginTop: '2rem',
+  // },
   allAlbumsContainer: {
     display: 'flex',
-    marginTop: '2rem',
+    marginTop: '1rem',
     paddingBottom: '5rem',
     flexDirection: 'column',
     justifyContent: 'center',
@@ -177,7 +181,7 @@ export default {
       flexDirection: 'row',
     },
     workText: {
-      width: '35rem',
+      width: '40rem',
       marginLeft: '2rem',
       // paddingTop: '2rem',
     },
