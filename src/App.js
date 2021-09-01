@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Homepage from './components/Homepage';
-import Navbar from './components/Navbar';
-import Bio from './components/Bio';
-import TheDeepRoots from './components/TheDeepRoots';
-import Works from './components/Works';
-import Contact from './components/Contact';
+import {
+  Bio,
+  Contact,
+  Homepage,
+  MenuToggle,
+  MobileMenu,
+  Navbar,
+  TheDeepRoots,
+  Works,
+} from './components';
 
 function App() {
+  const [open, setOpen] = useState(false);
+
   return (
     <>
-      <Navbar />
+      <Navbar open={open} setOpen={setOpen} />
+      {/* <MobileMenu open={open} setOpen={setOpen} /> */}
       <div>
         <Switch>
           <Route exact path='/' component={Homepage} />

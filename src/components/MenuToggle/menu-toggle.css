@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap'); */
+
+.toggle {
+  display: none;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+  padding-top: 0.65rem;
+  padding-right: 1.5rem;
+  z-index: 2;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  /* opacity: 0; */
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+@media only screen and (max-width: 768px) {
+  .toggle {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .toggle.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .toggle.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}

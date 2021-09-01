@@ -7,17 +7,7 @@ export default {
     alignItems: 'center',
     marginTop: '4rem',
   },
-  // background: {
-  //   paddingTop: '2rem',
-  //   backgroundImage: `url(${image})`,
-  //   backgroundSize: 'cover',
-  //   backgroundPosition: 'center center',
-  //   backgroundRepeat: 'no-repeat',
-  //   // backgroundAttachment: 'fixed',
-  //   height: '35vh',
-  // },
   banner: {
-    // display: 'none',
     width: '100vw',
   },
   heading: {

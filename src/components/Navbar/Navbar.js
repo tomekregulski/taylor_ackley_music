@@ -1,7 +1,9 @@
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
-import styles from '../styles/NavStyles';
+import styles from './NavStyles';
 import { Link } from 'react-router-dom';
+import MenuToggle from '../MenuToggle';
+import MobileMenu from '../MobileMenu';
 
 function Navbar(props) {
   const { classes } = props;
@@ -14,12 +16,6 @@ function Navbar(props) {
         <Link className={classes.titleLink} to='/'>
           <h1 className={classes.name}>Taylor Ackley</h1>
         </Link>
-        {/* <p className={classes.subtitle}>and his Deep Roots Ensemble.</p> */}
-        {/* <ul className={classes.titleTags}>
-          <li>Performer</li>
-          <li>Composer</li>
-          <li>Educator</li>
-        </ul> */}
       </div>
       <div className={classes.navLinks}>
         <div className={classes.firstNavLinks}>
@@ -39,6 +35,8 @@ function Navbar(props) {
           </Link>
         </div>
       </div>
+      <MenuToggle open={props.open} setOpen={props.setOpen} />
+      <MobileMenu open={props.open} setOpen={props.setOpen} />
     </nav>
   );
 }

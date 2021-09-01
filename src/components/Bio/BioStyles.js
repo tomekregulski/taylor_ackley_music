@@ -14,22 +14,10 @@ export default {
   },
   banner: {
     display: 'none',
-    // width: '100vw',
   },
-  // bioBackground: {
-  //   backgroundImage: `url(${image})`,
-  //   backgroundSize: 'cover',
-  //   backgroundPosition: 'center center',
-  //   backgroundRepeat: 'no-repeat',
-  //   // backgroundAttachment: 'fixed',
-  //   height: '0vh',
-  // },
 
   textContainer: {
     margin: '2rem 2rem 0 2rem',
-    // height: '20rem',
-    // overflow: 'hidden',
-    // overflowY: 'auto',
   },
   paragraph: {
     marginBottom: '1rem',
@@ -37,8 +25,6 @@ export default {
   headshot: {
     marginTop: '2rem',
     width: '100vw',
-    // marginTop: '2rem',
-    // boxShadow: '0px 0px 5px 5px rgba(255,255,255,.3)',
   },
   '@media screen and (min-width: 360px)': {},
   '@media screen and (min-width: 375px)': {},
@@ -68,12 +54,6 @@ export default {
     textContainer: {
       margin: '2rem 2rem 0 2rem',
     },
-    // headshot: {
-    //   width: '520px',
-    // },
-    // bioBackground: {
-    //   height: '617px',
-    // },
   },
   '@media screen and (min-width: 1366px)': {
     bioBackground: {
@@ -103,7 +83,6 @@ export default {
       width: '25rem',
       marginTop: '2rem',
       marginBottom: '5rem',
-      // boxShadow: '0px 0px 5px 5px rgba(47,44,71,.4)',
     },
   },
   '@media screen and (min-width: 1920px)': {},
