@@ -17,7 +17,6 @@ function App() {
   return (
     <>
       <Navbar open={open} setOpen={setOpen} />
-      {/* <MobileMenu open={open} setOpen={setOpen} /> */}
       <div>
         <Switch>
           <Route exact path='/' component={Homepage} />
