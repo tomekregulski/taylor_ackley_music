@@ -50,7 +50,7 @@ export default {
     },
   },
   '@media screen and (min-width: 360px)': {},
-  '@media screen and (min-width: 768px)': {
+  '@media screen and (min-width: 760px)': {
     name: {
       marginLeft: 0,
     },
