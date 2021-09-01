@@ -24,7 +24,7 @@
   background-color: #101010;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 7680x) {
   .toggle {
     display: inline-block;
     cursor: pointer;
