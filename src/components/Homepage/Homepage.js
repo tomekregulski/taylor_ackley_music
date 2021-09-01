@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles } from '@material-ui/styles';
-import styles from '../styles/HomepageStyles';
-import image from '../images/small/still_19.jpg';
+import styles from './HomepageStyles';
+import image from '../../images/small/still_19.jpg';
 
 function Homepage(props) {
   const { classes } = props;
