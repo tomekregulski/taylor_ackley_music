@@ -6,7 +6,7 @@ import { init, sendForm } from 'emailjs-com';
 import styles from './ContactStyles';
 import image from '../../images/small/contact_banner.png';
 
-init('user_sWNT4oROPiAoUGksmqFlD');
+init('user_SWzfSk1EXsPJlGAAkAqGc');
 
 const Contact = (props) => {
   const { classes } = props;
@@ -17,7 +17,7 @@ const Contact = (props) => {
     const form = document.querySelector('#contact-form');
 
     console.log(data);
-    sendForm('contact_form', 'template_xu5gbwo', '#contact-form').then(
+    sendForm('contact_form', 'template_xvpepln', '#contact-form').then(
       (response) => {
         console.log('SUCCESS!', response.status, response.text);
         form.reset();
